@@ -1,4 +1,4 @@
-# Installer les packages si tu ne les as pas déjà
+# Installer les packages
 install.packages("dplyr")
 install.packages("ggplot2")
 install.packages("lubridate")
@@ -41,8 +41,6 @@ names(invoice)
 names(invoice_line)
 names(track)
 names(genre)
-
-library(dplyr)
 
 # Joindre les données sans sélectionner pour vérifier les colonnes
 ventes_par_genre <- invoice %>%
